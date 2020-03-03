@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="551.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab1.Form">
+   <children>
+      <Text layoutX="197.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nhap thong tin sinh vien">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtName" onMouseClicked="#inputchane" layoutX="117.0" layoutY="94.0" prefHeight="39.0" prefWidth="398.0" promptText="Name" />
+      <TextField fx:id="txtAge" onMouseClicked="#inputchane" layoutX="117.0" layoutY="169.0" prefHeight="39.0" prefWidth="398.0" promptText="Age" />
+      <TextField fx:id="txtMark" onMouseClicked="#inputchane"  layoutX="117.0" layoutY="247.0" prefHeight="39.0" prefWidth="398.0" promptText="Mark" />
+      <Button layoutX="117.0" layoutY="314.0" mnemonicParsing="false" onAction="#submitStudent" text="Submit">
+         
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="txtArea" layoutX="51.0" layoutY="370.0" prefHeight="181.0" prefWidth="512.0" />
+      <Text fx:id="txtMesseage" fill="RED" layoutX="277.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="206.0859375" />
+   </children>
+</Pane>
