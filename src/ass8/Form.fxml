@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ass8.Form">
+   <children>
+      <TextField fx:id="txtName" layoutX="117.0" layoutY="78.0" prefHeight="27.0" prefWidth="366.0" promptText="Name" />
+      <TextField fx:id="txtAge" layoutX="117.0" layoutY="133.0" prefHeight="27.0" prefWidth="366.0" promptText="Age" />
+      <TextField fx:id="txtMark" layoutX="117.0" layoutY="187.0" prefHeight="27.0" prefWidth="366.0" promptText="Mark" />
+      <Button layoutX="117.0" layoutY="274.0" mnemonicParsing="false" onAction="#submit" text="Submit" />
+   </children>
+</Pane>
